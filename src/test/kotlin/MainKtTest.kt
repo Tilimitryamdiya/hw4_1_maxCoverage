@@ -10,7 +10,7 @@ class MainKtTest {
         val amount = 500000
 
         val result = calculateFee(typeOfCard, monthAmounts, amount)
-        assertEquals(500000, result)
+        assertEquals(400000, result)
     }
 
     @Test
